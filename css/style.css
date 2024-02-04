@@ -1,5 +1,5 @@
 @font-face {
-  font-family: GothamPro;
+  font-family: 'GothamProBold';
   font-display: swap;
   src: url("../fonts/GothamPro-Bold.woff2") format("woff2"), url("../fonts/GothamPro-Bold.ttf") format("ttf");
   font-weight: 700;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: GothamPro;
+  font-family: 'GothamPro';
   font-display: swap;
   src: url("../fonts/GothamPro-Medium.woff2") format("woff2"), url("../fonts/GothamPro-Medium.ttf") format("ttf");
   font-weight: 500;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: GothamPro;
+  font-family: 'GothamProRegular';
   font-display: swap;
   src: url("../fonts/GothamPro.woff2") format("woff2"), url("../fonts/GothamPro.ttf") format("ttf");
   font-weight: 400;
@@ -42,7 +42,7 @@ html {
 
 body {
   margin: 0;
-  font-family: GothamPro;
+  font-family: 'GothamPro';
   overflow-x: hidden;
   color: white;
   background: rgb(23, 20, 34);
@@ -169,7 +169,7 @@ main {
 .reasons {
   margin-top: 100px;
   font-size: 22px;
-  font-weight: 400;
+  font-family: 'GothamProRegular';
   line-height: 140%;
 }
 
@@ -257,7 +257,6 @@ main {
 .reasons__annotation {
   margin-top: 20px;
   font-size: 18px;
-  font-weight: 400;
   line-height: 140%;
   text-align: right;
 }
