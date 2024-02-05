@@ -142,9 +142,9 @@ main {
 
 .hero__gradient {
   z-index: 2;
-  width: 1300px;
+  width: 1310px;
   height: 100%;
-  max-height: 568px;
+  max-height: 570px;
   position: absolute;
   background: linear-gradient(140.19deg, rgb(223, 80, 23) 2.56%, rgba(223, 80, 23, 0.44) 19.647%, rgba(223, 80, 23, 0.19) 32.487%, rgba(223, 80, 23, 0) 49.303%), linear-gradient(90deg, rgb(40, 37, 51) 65.153%, rgb(40, 37, 51) 65.156%, rgba(40, 37, 51, 0.74) 82.213%, rgba(40, 37, 51, 0) 100%);
 }
